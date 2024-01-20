@@ -1,22 +1,47 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Автовокзал г.Орша - Добавление</title>
+    <title>Станции на маршруте Орша - Минск</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
 </head>
 <body>
-    <h1>Автовокзал г.Орша</h1>
-
-    <form method="post" action="/add">
-        <label for="name">Название:</label>
-        <input type="text" id="name" name="name">
-        <br>
-        <label for="address">Адрес:</label>
-        <input type="text" id="address" name="address">
-        <br>
-        <label for="phone">Телефон:</label>
-        <input type="text" id="phone" name="phone">
-        <br>
-        <input type="submit" value="Добавить">
-    </form>
+    <h1>Станции на маршруте Орша - Минск</h1>
+    <table>
+        <tr>
+            <th>Станция</th>
+            <th>Расстояние (км)</th>
+        </tr>
+        <tr>
+            <td>Орша</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>Борисов</td>
+            <td>160</td>
+        </tr>
+        <tr>
+            <td>Минск-Пассажирский</td>
+            <td>210</td>
+        </tr>
+        <tr>
+            <td>Минск-Западный</td>
+            <td>230</td>
+        </tr>
+    </table>
 </body>
 </html>
